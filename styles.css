@@ -12,11 +12,21 @@ html {
 }
 
 body{
-    background-color: red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
     color: black;
+}
+
+nav a{
+    color:black;
 
 }
-header,a:link,a:visited,a:hover,a:active{
-    color: black;
+
+header {
+    background-color: white;
+    width: 80%;
+    margin: 1rem auto;
+}
+a:link,a:visited,a:hover,a:active{
     text-decoration: none;
 }
