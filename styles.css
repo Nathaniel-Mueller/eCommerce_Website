@@ -29,7 +29,6 @@ nav{
 
 }
 
-
 a:link,a:visited,a:hover,a:active {
     text-decoration: none;
     color: black;
@@ -41,7 +40,6 @@ a{
     display: inline-block;
 }
 
-
 .caracara{
     display: flex;
     flex-flow: row nowrap;
@@ -51,29 +49,52 @@ a{
     font-weight: 600;
 
 }
+
 hr{
     margin-top: 2rem;
     height: 5px;
     border: solid;
     color: black
 }
+
 footer{
     background-color: #BF7631;
     height: 162px;
     padding: 1rem;
 }
+
 .flex-container {
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
-    width: 80%;
+    width: 100%;
     height: auto;
     justify-content: space-between;
     
 }
 
-.center-images {
+img{
+    max-width: 100%;
+}
+
+.black-backdrop{
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+
+.center-images{
     display: flex;
     align-items: center;
-    width: 40px;
+}
+
+.search{
+    height: 27px;
+    width: 292px;
+}
+
+.flex-center{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
 }
