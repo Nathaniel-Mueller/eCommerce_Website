@@ -64,6 +64,11 @@ footer{
     padding: 1rem;
 }
 
+.flex-center{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
 .flex-container {
     display: flex;
     flex-flow: row nowrap;
