@@ -24,8 +24,8 @@ body{
 }
 
 nav{
-    width: 80%;
-    margin: 0rem auto;
+    margin-left: 12rem;
+    margin-right: 12rem;
 
 }
 
@@ -45,8 +45,9 @@ a{
     flex-flow: row nowrap;
     align-items: center;
     font-size: 30px;
-    letter-spacing: 239;
+    letter-spacing: 7px;
     font-weight: 600;
+    justify-content: space-around;
 
 }
 
@@ -67,8 +68,6 @@ footer{
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
-    width: 100%;
-    height: auto;
     justify-content: space-between;
     
 }
@@ -79,13 +78,26 @@ img{
 
 .black-backdrop{
     background-color: black;
-    color: white;
-    width: 100%;
+    width: 1920px;
+    height: 633px;
+}
+
+.center-icons{
+    display: flex;
+    align-items: center;
 }
 
 .center-images{
-    display: flex;
-    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.faded-pic{
+    margin-left: 275px;
+    margin-right: 274px;
+    width: 1371px;
+
 }
 
 .search{
@@ -93,8 +105,19 @@ img{
     width: 292px;
 }
 
-.flex-center{
-    display: flex;
-    flex-flow: row nowrap;
-    align-items: center;
+.search-wrapper{
+    border: 1px solid black;
+    display: inline-block;
+    
+}
+
+.grad{
+    background-image:
+    linear-gradient(to right,black, rgba(255, 255, 255, 0), black),
+    url(./assets/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:1370px;
+    width: 1920px;
+    height: 633px;
 }
