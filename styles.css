@@ -74,7 +74,22 @@ footer{
     height: 162px;
     padding: 2rem;
 }
+.image-text{
+    color: white;
+    font-size: 45px;
+    width: 1920px;
+    height: 633px;
+}
 
+.top-pad{
+    padding-top: 105px;
+    padding-left: 140px;
+}
+
+.bottom-pad{
+    padding-top: 83px;
+    padding-left: 1504px;
+}
 .footer-text{
     display: flex;
     flex-flow: row nowrap;
