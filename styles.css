@@ -307,6 +307,14 @@ img{
     
 }
 
+.page-two-wrapper{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    height: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
 
 .grad{
     background-image:
@@ -317,4 +325,9 @@ img{
     background-size:1370px;
     width: 1920px;
     height: 633px;
+}
+
+.bg-grad{
+    background-image: linear-gradient(white, #BF7631);
+    height: 800px;
 }
