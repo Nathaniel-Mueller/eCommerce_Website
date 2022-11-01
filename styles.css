@@ -311,6 +311,7 @@ img{
     display: flex;
     flex-flow: column wrap;
     justify-content: space-evenly;
+    align-items: center;
     height: 100%;
     margin-left: 10%;
     margin-right: 10%;
